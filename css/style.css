@@ -25,6 +25,14 @@ header h1{
 .surf-report{
     max-height: 100px;
 }
+.imgHolder {
+    position: relative;
+}
+.imgHolder span {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}
 
 #About-Me{
    /* position: absolute;*/
@@ -43,10 +51,42 @@ article{
 }
 .surf-report{
     width: 80%;
-    max-height: 200px;
+    max-height: 180px;
 }
-  #flex-container{
-      display:file;
-      flex-direction:raw;
-      size: 0em;
+.book, .wiring {
+    margin:0px auto;
+    width:100px; 
+    height:100px;
+    padding:5px;
+    float: right;
+    width: 25%;
+      }
+
+  
+.footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    background-color: #333333;
   }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111111;
+  }
+
+
+
+      
