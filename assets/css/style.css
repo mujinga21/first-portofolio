@@ -4,7 +4,7 @@
   margin: 0;
 }
 body {
-  background-color: wheat;
+  background-color: rgb(131, 191, 219);
 }
 .Header {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -61,7 +61,7 @@ article {
   width: 25%;
 }
 .leftBorder {
-  border-left: 5px solid red;
+  border-left: 5px solid rgb(0, 110, 255);
 }
 
 .footer {
@@ -78,7 +78,7 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 5px;
   text-decoration: none;
